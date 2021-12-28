@@ -299,7 +299,7 @@ utils.extend(Chunk.prototype, {
       }
     }
 
-    this.xhr.open(method, target, true)
+    this.xhr.open(method, target, false)
     this.xhr.withCredentials = this.uploader.opts.withCredentials
 
     // Add data from header options
